@@ -3,10 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F90D67D72A37776B00D14AFE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90D67D62A37776B00D14AFE /* HomeView.swift */; };
+		F90D67D92A3779B600D14AFE /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90D67D82A3779B600D14AFE /* StoryView.swift */; };
+		F90D67DB2A3779F800D14AFE /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90D67DA2A3779F800D14AFE /* Data.swift */; };
+		F90D67DD2A37E0A100D14AFE /* FoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90D67DC2A37E0A100D14AFE /* FoodView.swift */; };
+		F90D67DF2A38049800D14AFE /* FunFacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90D67DE2A38049800D14AFE /* FunFacts.swift */; };
+		F90D67E12A391FF900D14AFE /* CardFront.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90D67E02A391FF900D14AFE /* CardFront.swift */; };
+		F90D67E32A3959F800D14AFE /* CardBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90D67E22A3959F800D14AFE /* CardBack.swift */; };
+		F90D67E52A3986DC00D14AFE /* CardFlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90D67E42A3986DC00D14AFE /* CardFlip.swift */; };
+		F98CEC912A44FAD000F39768 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F98CEC902A44FAD000F39768 /* Kingfisher */; };
 		F99B189E2A3774C80036F666 /* About_SlothsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99B189D2A3774C80036F666 /* About_SlothsApp.swift */; };
 		F99B18A02A3774C80036F666 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99B189F2A3774C80036F666 /* ContentView.swift */; };
 		F99B18A22A3774C90036F666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F99B18A12A3774C90036F666 /* Assets.xcassets */; };
@@ -14,6 +23,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F90D67D62A37776B00D14AFE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F90D67D82A3779B600D14AFE /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		F90D67DA2A3779F800D14AFE /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		F90D67DC2A37E0A100D14AFE /* FoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodView.swift; sourceTree = "<group>"; };
+		F90D67DE2A38049800D14AFE /* FunFacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFacts.swift; sourceTree = "<group>"; };
+		F90D67E02A391FF900D14AFE /* CardFront.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFront.swift; sourceTree = "<group>"; };
+		F90D67E22A3959F800D14AFE /* CardBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBack.swift; sourceTree = "<group>"; };
+		F90D67E42A3986DC00D14AFE /* CardFlip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFlip.swift; sourceTree = "<group>"; };
 		F99B189A2A3774C80036F666 /* About Sloths.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "About Sloths.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F99B189D2A3774C80036F666 /* About_SlothsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About_SlothsApp.swift; sourceTree = "<group>"; };
 		F99B189F2A3774C80036F666 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F98CEC912A44FAD000F39768 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +57,7 @@
 				F99B189B2A3774C80036F666 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		F99B189B2A3774C80036F666 /* Products */ = {
 			isa = PBXGroup;
@@ -53,6 +72,14 @@
 			children = (
 				F99B189D2A3774C80036F666 /* About_SlothsApp.swift */,
 				F99B189F2A3774C80036F666 /* ContentView.swift */,
+				F90D67D62A37776B00D14AFE /* HomeView.swift */,
+				F90D67D82A3779B600D14AFE /* StoryView.swift */,
+				F90D67DC2A37E0A100D14AFE /* FoodView.swift */,
+				F90D67E22A3959F800D14AFE /* CardBack.swift */,
+				F90D67E42A3986DC00D14AFE /* CardFlip.swift */,
+				F90D67E02A391FF900D14AFE /* CardFront.swift */,
+				F90D67DE2A38049800D14AFE /* FunFacts.swift */,
+				F90D67DA2A3779F800D14AFE /* Data.swift */,
 				F99B18A12A3774C90036F666 /* Assets.xcassets */,
 				F99B18A32A3774C90036F666 /* Preview Content */,
 			);
@@ -83,6 +110,9 @@
 			dependencies = (
 			);
 			name = "About Sloths";
+			packageProductDependencies = (
+				F98CEC902A44FAD000F39768 /* Kingfisher */,
+			);
 			productName = "About Sloths";
 			productReference = F99B189A2A3774C80036F666 /* About Sloths.app */;
 			productType = "com.apple.product-type.application";
@@ -103,7 +133,7 @@
 				};
 			};
 			buildConfigurationList = F99B18952A3774C80036F666 /* Build configuration list for PBXProject "About Sloths" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -111,6 +141,9 @@
 				Base,
 			);
 			mainGroup = F99B18912A3774C80036F666;
+			packageReferences = (
+				F98CEC8F2A44FAD000F39768 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = F99B189B2A3774C80036F666 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +170,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F90D67E32A3959F800D14AFE /* CardBack.swift in Sources */,
+				F90D67DD2A37E0A100D14AFE /* FoodView.swift in Sources */,
+				F90D67D72A37776B00D14AFE /* HomeView.swift in Sources */,
+				F90D67DB2A3779F800D14AFE /* Data.swift in Sources */,
+				F90D67E52A3986DC00D14AFE /* CardFlip.swift in Sources */,
+				F90D67DF2A38049800D14AFE /* FunFacts.swift in Sources */,
 				F99B18A02A3774C80036F666 /* ContentView.swift in Sources */,
+				F90D67E12A391FF900D14AFE /* CardFront.swift in Sources */,
+				F90D67D92A3779B600D14AFE /* StoryView.swift in Sources */,
 				F99B189E2A3774C80036F666 /* About_SlothsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +321,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +351,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,6 +387,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F98CEC8F2A44FAD000F39768 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F98CEC902A44FAD000F39768 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F98CEC8F2A44FAD000F39768 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F99B18922A3774C80036F666 /* Project object */;
 }
