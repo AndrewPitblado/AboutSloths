@@ -22,6 +22,11 @@ struct ContentView: View {
                 .tabItem{
                     Label("Diet", systemImage: "fork.knife")
                 }
+            
+            NewsView()
+                .tabItem {
+                    Label("News", systemImage: "newspaper")
+                }
             FunFacts()
                 .tabItem{
                     Label("Facts", systemImage: "questionmark.square.fill")

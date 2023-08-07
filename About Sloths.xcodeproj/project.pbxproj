@@ -15,11 +15,16 @@
 		F90D67E12A391FF900D14AFE /* CardFront.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90D67E02A391FF900D14AFE /* CardFront.swift */; };
 		F90D67E32A3959F800D14AFE /* CardBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90D67E22A3959F800D14AFE /* CardBack.swift */; };
 		F90D67E52A3986DC00D14AFE /* CardFlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90D67E42A3986DC00D14AFE /* CardFlip.swift */; };
+		F94546CC2A5BBF68003D2564 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94546CB2A5BBF68003D2564 /* Article.swift */; };
+		F94546CE2A5BC69F003D2564 /* NewsFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94546CD2A5BC69F003D2564 /* NewsFeed.swift */; };
 		F98CEC912A44FAD000F39768 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F98CEC902A44FAD000F39768 /* Kingfisher */; };
 		F99B189E2A3774C80036F666 /* About_SlothsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99B189D2A3774C80036F666 /* About_SlothsApp.swift */; };
 		F99B18A02A3774C80036F666 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99B189F2A3774C80036F666 /* ContentView.swift */; };
 		F99B18A22A3774C90036F666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F99B18A12A3774C90036F666 /* Assets.xcassets */; };
 		F99B18A52A3774C90036F666 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F99B18A42A3774C90036F666 /* Preview Assets.xcassets */; };
+		F9D2BEF72A5A372A00A790BE /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D2BEF62A5A372A00A790BE /* NewsView.swift */; };
+		F9F6DABF2A5B237100E37D8B /* NewsAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F6DABE2A5B237100E37D8B /* NewsAPIClient.swift */; };
+		F9F6DAC22A5B23B900E37D8B /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = F9F6DAC12A5B23B900E37D8B /* CachedAsyncImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,11 +36,16 @@
 		F90D67E02A391FF900D14AFE /* CardFront.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFront.swift; sourceTree = "<group>"; };
 		F90D67E22A3959F800D14AFE /* CardBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBack.swift; sourceTree = "<group>"; };
 		F90D67E42A3986DC00D14AFE /* CardFlip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFlip.swift; sourceTree = "<group>"; };
+		F94546CB2A5BBF68003D2564 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		F94546CD2A5BC69F003D2564 /* NewsFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeed.swift; sourceTree = "<group>"; };
 		F99B189A2A3774C80036F666 /* About Sloths.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "About Sloths.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F99B189D2A3774C80036F666 /* About_SlothsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About_SlothsApp.swift; sourceTree = "<group>"; };
 		F99B189F2A3774C80036F666 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F99B18A12A3774C90036F666 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F99B18A42A3774C90036F666 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F9CFA10E2A70C54800A5DCA4 /* About-Sloths-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "About-Sloths-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F9D2BEF62A5A372A00A790BE /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		F9F6DABE2A5B237100E37D8B /* NewsAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAPIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +54,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F98CEC912A44FAD000F39768 /* Kingfisher in Frameworks */,
+				F9F6DAC22A5B23B900E37D8B /* CachedAsyncImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,16 +81,12 @@
 		F99B189C2A3774C80036F666 /* About Sloths */ = {
 			isa = PBXGroup;
 			children = (
+				F9CFA10E2A70C54800A5DCA4 /* About-Sloths-Info.plist */,
+				F9F6DABD2A5B234A00E37D8B /* Cards */,
+				F9F6DABC2A5B233D00E37D8B /* Data */,
+				F9F6DABB2A5B230600E37D8B /* NewsAPI */,
+				F9F6DABA2A5B22C300E37D8B /* Views */,
 				F99B189D2A3774C80036F666 /* About_SlothsApp.swift */,
-				F99B189F2A3774C80036F666 /* ContentView.swift */,
-				F90D67D62A37776B00D14AFE /* HomeView.swift */,
-				F90D67D82A3779B600D14AFE /* StoryView.swift */,
-				F90D67DC2A37E0A100D14AFE /* FoodView.swift */,
-				F90D67E22A3959F800D14AFE /* CardBack.swift */,
-				F90D67E42A3986DC00D14AFE /* CardFlip.swift */,
-				F90D67E02A391FF900D14AFE /* CardFront.swift */,
-				F90D67DE2A38049800D14AFE /* FunFacts.swift */,
-				F90D67DA2A3779F800D14AFE /* Data.swift */,
 				F99B18A12A3774C90036F666 /* Assets.xcassets */,
 				F99B18A32A3774C90036F666 /* Preview Content */,
 			);
@@ -92,6 +99,47 @@
 				F99B18A42A3774C90036F666 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F9F6DABA2A5B22C300E37D8B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F90D67DA2A3779F800D14AFE /* Data.swift */,
+				F99B189F2A3774C80036F666 /* ContentView.swift */,
+				F90D67D62A37776B00D14AFE /* HomeView.swift */,
+				F90D67D82A3779B600D14AFE /* StoryView.swift */,
+				F90D67DC2A37E0A100D14AFE /* FoodView.swift */,
+				F90D67DE2A38049800D14AFE /* FunFacts.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F9F6DABB2A5B230600E37D8B /* NewsAPI */ = {
+			isa = PBXGroup;
+			children = (
+				F9F6DABE2A5B237100E37D8B /* NewsAPIClient.swift */,
+				F9D2BEF62A5A372A00A790BE /* NewsView.swift */,
+				F94546CB2A5BBF68003D2564 /* Article.swift */,
+				F94546CD2A5BC69F003D2564 /* NewsFeed.swift */,
+			);
+			path = NewsAPI;
+			sourceTree = "<group>";
+		};
+		F9F6DABC2A5B233D00E37D8B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F9F6DABD2A5B234A00E37D8B /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				F90D67E22A3959F800D14AFE /* CardBack.swift */,
+				F90D67E42A3986DC00D14AFE /* CardFlip.swift */,
+				F90D67E02A391FF900D14AFE /* CardFront.swift */,
+			);
+			path = Cards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +160,7 @@
 			name = "About Sloths";
 			packageProductDependencies = (
 				F98CEC902A44FAD000F39768 /* Kingfisher */,
+				F9F6DAC12A5B23B900E37D8B /* CachedAsyncImage */,
 			);
 			productName = "About Sloths";
 			productReference = F99B189A2A3774C80036F666 /* About Sloths.app */;
@@ -143,6 +192,7 @@
 			mainGroup = F99B18912A3774C80036F666;
 			packageReferences = (
 				F98CEC8F2A44FAD000F39768 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				F9F6DAC02A5B23B900E37D8B /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
 			);
 			productRefGroup = F99B189B2A3774C80036F666 /* Products */;
 			projectDirPath = "";
@@ -170,9 +220,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F94546CC2A5BBF68003D2564 /* Article.swift in Sources */,
+				F9F6DABF2A5B237100E37D8B /* NewsAPIClient.swift in Sources */,
 				F90D67E32A3959F800D14AFE /* CardBack.swift in Sources */,
+				F9D2BEF72A5A372A00A790BE /* NewsView.swift in Sources */,
 				F90D67DD2A37E0A100D14AFE /* FoodView.swift in Sources */,
 				F90D67D72A37776B00D14AFE /* HomeView.swift in Sources */,
+				F94546CE2A5BC69F003D2564 /* NewsFeed.swift in Sources */,
 				F90D67DB2A3779F800D14AFE /* Data.swift in Sources */,
 				F90D67E52A3986DC00D14AFE /* CardFlip.swift in Sources */,
 				F90D67DF2A38049800D14AFE /* FunFacts.swift in Sources */,
@@ -316,12 +370,13 @@
 				DEVELOPMENT_TEAM = 3Y7AX3CWR3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "About-Sloths-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -346,12 +401,13 @@
 				DEVELOPMENT_TEAM = 3Y7AX3CWR3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "About-Sloths-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -397,6 +453,14 @@
 				minimumVersion = 7.8.1;
 			};
 		};
+		F9F6DAC02A5B23B900E37D8B /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -404,6 +468,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = F98CEC8F2A44FAD000F39768 /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
+		};
+		F9F6DAC12A5B23B900E37D8B /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9F6DAC02A5B23B900E37D8B /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
